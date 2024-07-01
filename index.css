@@ -10,7 +10,7 @@
     display:flex;
     flex-direction: column;
     justify-items: center;
-    height:75vh;
+    height:100vh;
     
 }
 
@@ -27,10 +27,9 @@
     
     align-content: center;
     background-color: #1f2328;
-    /* background-size: cover; */
+    background-size: cover;
     display:flex;
     /* flex-direction: column; */
-    /* margin-top: 3rem; */
     height: 175vh;
 }
 
@@ -39,13 +38,14 @@
     background-color: #1f2328;
     display:flex;
     flex-wrap: wrap;
-    flex: 1;
+    flex: 5;
    
     
     gap:2rem;
-    /* padding-bottom: 7rem; */
-    padding-left: 30rem;
-    padding-right: 30rem;
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+    padding-left: 40rem;
+    padding-right: 40rem;
     padding-top: 3rem;
     justify-content:center;
 }

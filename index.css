@@ -1,0 +1,218 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+
+.shopwindow{
+
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    height:75vh;
+    
+}
+
+.shopwindow .poster-image{
+    background-image: url("assets/poster.png");
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+}
+
+
+
+.posterwindow{
+    
+    align-content: center;
+    background-color: #1f2328;
+    /* background-size: cover; */
+    display:flex;
+    /* flex-direction: column; */
+    /* margin-top: 3rem; */
+    height: 175vh;
+}
+
+.posterwindow .main-container{
+    
+    background-color: #1f2328;
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1;
+   
+    
+    gap:2rem;
+    /* padding-bottom: 7rem; */
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 3rem;
+    justify-content:center;
+}
+
+.posterwindow .main-container .card{
+    
+    background-color: #1f2328;
+    border: 1px solid #1f2328;
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    /* padding-bottom: 0.5rem;
+    padding-top: 0.5rem; */
+
+}
+
+
+.posterwindow .main-container .card .card-content .title{
+
+    color: aliceblue;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+
+}
+
+
+
+
+
+.posterwindow .main-container .card .card-content .card-text{
+
+    color:aliceblue;
+    text-align: left;
+    padding-bottom: 1rem;
+    
+   
+
+}
+
+
+.posterwindow .main-container .card .card-content .card-actions{
+    
+    /* blah blah */
+}
+
+.posterwindow .main-container .card .card-content .card-actions .add{
+    
+    background-color: #cf222e;
+    border: 1px solid #cf222e;
+    border-radius: 5px;
+    color:aliceblue;
+    cursor:pointer
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+
+}
+
+
+
+
+
+.posterwindow .main-container .card .card-image1{
+
+    background-image: url("assets/char-1.png");
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+}
+
+.posterwindow .main-container .card .card-image2{
+
+    background-image: url("assets/char-2.png");
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image3{
+
+    background-image: url("assets/char-3.png");
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image4{
+
+    background-image: url("assets/char-4.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image5{
+
+    background-image: url("assets/char-5.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image6{
+
+    background-image: url("assets/char-6.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image7{
+
+    background-image: url("assets/char-7.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image8{
+
+    background-image: url("assets/char-8.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image9{
+
+    background-image: url("assets/char-9.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image10{
+
+    background-image: url("assets/char-10.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}
+
+.posterwindow .main-container .card .card-image11{
+
+    background-image: url("assets/char-11.png");
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px 10px 0 0; */
+    flex: 1;
+
+}

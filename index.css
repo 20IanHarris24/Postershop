@@ -29,8 +29,7 @@
     background-color: #1f2328;
     background-size: cover;
     display:flex;
-    /* flex-direction: column; */
-    height: 175vh;
+     height: 175vh;
 }
 
 .posterwindow .main-container{
@@ -54,7 +53,6 @@
     
     background-color: #1f2328;
     border: 1px solid #1f2328;
-    /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
     height: 500px;
@@ -90,10 +88,10 @@
 }
 
 
-.posterwindow .main-container .card .card-content .card-actions{
+/* .posterwindow .main-container .card .card-content .card-actions{
     
-    /* blah blah */
-}
+    blah blah
+} */
 
 .posterwindow .main-container .card .card-content .card-actions .add{
     
